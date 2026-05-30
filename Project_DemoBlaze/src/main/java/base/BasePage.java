@@ -8,5 +8,6 @@ public class BasePage {
    
    public void setUp() {
    driver = new ChromeDriver();
+   driver.get("https://www.google.com");
 }
 }
