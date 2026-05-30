@@ -1,5 +1,7 @@
 package base;
 
-public class BasePage {
+import org.openqa.selenium.WebDriver;
 
+public class BasePage {
+   private WebDriver driver;
 }
