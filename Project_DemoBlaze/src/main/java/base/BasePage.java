@@ -8,6 +8,6 @@ public class BasePage {
 
 	public void setUp() {
 		driver = new ChromeDriver();
-		driver.get("https://www.google.com");
+		driver.get("https://www.netflix.com");
 	}
 }
